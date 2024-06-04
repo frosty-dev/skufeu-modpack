@@ -1,0 +1,52 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "create:mill": {
+      "type": "heracles:item",
+      "item": "create:millstone",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "300": {
+      "xptype": "LEVEL",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Раздроби меня, братан"
+    ],
+    "groups": {
+      "#1 Ore Processing": {
+        "position": [
+          0,
+          46
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:millstone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Дробилка"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

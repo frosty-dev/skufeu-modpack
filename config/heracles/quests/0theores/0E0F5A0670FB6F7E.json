@@ -1,0 +1,55 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "0E120845B336DDDC": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"0E120845B336DDDC\" quest=\"0E0F5A0670FB6F7E\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "#0 The Ores": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Acquire: minecraft:iron_ingot"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

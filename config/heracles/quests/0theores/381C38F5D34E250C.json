@@ -1,0 +1,55 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "18C6A9D0D7E3E95D": {
+      "type": "heracles:item",
+      "item": "minecraft:coal",
+      "amount": 16,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"18C6A9D0D7E3E95D\" quest=\"381C38F5D34E250C\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "#0 The Ores": {
+        "position": [
+          -80,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:coal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "text": "Coal"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "tasks": {
+    "60BD1B06925F5B01": {
+      "type": "heracles:item",
+      "item": "minecraft:enchanted_book",
+      "nbt": {
+        "StoredEnchantments": [
+          {
+            "id": "minecraft:mending",
+            "lvl": 1
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "793A90A084922FDF": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 5
+      }
+    }
+  },
+  "display": {
+    "title": "Mending",
+    "description": [
+      "<task task=\"60BD1B06925F5B01\" quest=\"6632839284166616\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"793A90A084922FDF\" quest=\"6632839284166616\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:enchanted_book"
+    },
+    "groups": {
+      "#1 Todays Subject: Slavery": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    }
+  }
+}

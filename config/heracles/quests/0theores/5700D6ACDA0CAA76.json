@@ -1,0 +1,47 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "790323E3C0603A12": {
+      "type": "heracles:item",
+      "item": "create:zinc_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"790323E3C0603A12\" quest=\"5700D6ACDA0CAA76\"/>",
+      "<hr/>"
+    ],
+    "groups": {
+      "#0 The Ores": {
+        "position": [
+          -32,
+          -16
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:zinc_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Acquire: create:zinc_ingot"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

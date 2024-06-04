@@ -1,0 +1,59 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "andesite": {
+      "type": "heracles:item",
+      "item": "minecraft:andesite",
+      "amount": 8,
+      "collection": "AUTOMATIC",
+      "icon": {
+        "item": {
+          "id": "minecraft:andesite",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "andesite-exp": {
+      "xptype": "LEVEL",
+      "amount": 3,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Андезит можно найти в больших жилах в мире или сделать из диорита и булыжника."
+    ],
+    "groups": {
+      "Create: Amogus": {
+        "position": [
+          0,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:stone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Получение андезита"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

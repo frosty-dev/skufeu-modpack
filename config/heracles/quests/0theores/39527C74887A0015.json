@@ -1,0 +1,33 @@
+{
+  "settings": {},
+  "dependencies": [
+    "54A15B6B4B4569FC"
+  ],
+  "tasks": {
+    "09F9FC3E3D465746": {
+      "type": "heracles:item",
+      "item": "minecraft:wooden_pickaxe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: minecraft:wooden_pickaxe",
+    "description": [
+      "<task task=\"09F9FC3E3D465746\" quest=\"39527C74887A0015\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:wooden_pickaxe"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "groups": {
+      "#0 The Ores": {
+        "position": [
+          -32,
+          32
+        ]
+      }
+    }
+  }
+}

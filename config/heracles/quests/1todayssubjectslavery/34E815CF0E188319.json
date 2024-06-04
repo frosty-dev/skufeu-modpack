@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "tasks": {
+    "7FE97D61CD924CF9": {
+      "type": "heracles:item",
+      "item": "minecraft:enchanted_book",
+      "nbt": {
+        "StoredEnchantments": [
+          {
+            "id": "minecraft:protection",
+            "lvl": 4
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "615AD8D830B387A7": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 5
+      }
+    }
+  },
+  "display": {
+    "title": "Acquire: minecraft:enchanted_book",
+    "description": [
+      "<task task=\"7FE97D61CD924CF9\" quest=\"34E815CF0E188319\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"615AD8D830B387A7\" quest=\"34E815CF0E188319\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:enchanted_book"
+    },
+    "groups": {
+      "#1 Todays Subject: Slavery": {
+        "position": [
+          -32,
+          0
+        ]
+      }
+    }
+  }
+}

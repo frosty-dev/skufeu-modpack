@@ -1,0 +1,117 @@
+{
+  "dependencies": [
+    "craft-shaft"
+  ],
+  "tasks": {
+    "get-large-cogwheel": {
+      "type": "heracles:item",
+      "item": "create:large_cogwheel",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "icon": {
+        "item": {
+          "id": "create:large_cogwheel",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "get-small-cogwheel": {
+      "type": "heracles:item",
+      "item": "create:cogwheel",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "icon": {
+        "item": {
+          "id": "create:cogwheel",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "large-cogwheel": {
+      "icon": {
+        "item": {
+          "id": "create:cogwheel",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:cogwheel",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "small-cogwheel": {
+      "icon": {
+        "item": {
+          "id": "create:large_cogwheel",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:large_cogwheel",
+        "count": 8
+      },
+      "type": "heracles:item"
+    },
+    "andesite-alloy": {
+      "icon": {
+        "item": {
+          "id": "create:andesite_alloy",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:andesite_alloy",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Смежные шестерни передают вращение между собой и меняют его направление.",
+      "",
+      "> Маленькие шестерни передают вращение между параллельными осями.",
+      "",
+      "> Большие шестерни передают вращение между перпендикулярными осями.",
+      "",
+      "> Большая и маленькая шестерни передают вращение между перпендикулярными осями и увеливают или уменьшают скорость в два раза."
+    ],
+    "groups": {
+      "Create: Amogus": {
+        "position": [
+          39,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:cogwheel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Крафт шестерней"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

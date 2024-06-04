@@ -1,0 +1,29 @@
+{
+  "settings": {},
+  "tasks": {
+    "4539FAE290882C07": {
+      "type": "heracles:item",
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: minecraft:gold_ingot",
+    "description": [
+      "<task task=\"4539FAE290882C07\" quest=\"4310DA7BF38410F7\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:gold_ingot"
+    },
+    "groups": {
+      "#0 The Ores": {
+        "position": [
+          16,
+          32
+        ]
+      }
+    }
+  }
+}

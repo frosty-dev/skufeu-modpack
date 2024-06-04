@@ -1,0 +1,137 @@
+{
+  "settings": {},
+  "tasks": {
+    "7D5600C8D61D3648": {
+      "title": "Any #minecraft:planks",
+      "type": "heracles:item",
+      "amount": 4,
+      "item": "#minecraft:planks"
+    }
+  },
+  "rewards": {
+    "35CB1DEA5E2C9723": {
+      "type": "heracles:selectable",
+      "rewards": {
+        "35CB1DEA5E2C9723_0": {
+          "type": "heracles:item",
+          "item": {
+            "id": "minecraft:oak_sapling",
+            "count": 16
+          }
+        },
+        "35CB1DEA5E2C9723_1": {
+          "type": "heracles:item",
+          "item": {
+            "id": "minecraft:spruce_sapling",
+            "count": 16
+          }
+        },
+        "35CB1DEA5E2C9723_2": {
+          "type": "heracles:item",
+          "item": {
+            "id": "minecraft:birch_sapling",
+            "count": 16
+          }
+        },
+        "35CB1DEA5E2C9723_3": {
+          "type": "heracles:item",
+          "item": {
+            "id": "minecraft:jungle_sapling",
+            "count": 16
+          }
+        },
+        "35CB1DEA5E2C9723_4": {
+          "type": "heracles:item",
+          "item": {
+            "id": "minecraft:acacia_sapling",
+            "count": 16
+          }
+        },
+        "35CB1DEA5E2C9723_5": {
+          "type": "heracles:item",
+          "item": {
+            "id": "minecraft:cherry_sapling",
+            "count": 16
+          }
+        },
+        "35CB1DEA5E2C9723_6": {
+          "type": "heracles:item",
+          "item": {
+            "id": "minecraft:dark_oak_sapling",
+            "count": 16
+          }
+        },
+        "35CB1DEA5E2C9723_7": {
+          "type": "heracles:item",
+          "item": {
+            "id": "minecraft:mangrove_propagule",
+            "count": 16
+          }
+        },
+        "35CB1DEA5E2C9723_8": {
+          "type": "heracles:item",
+          "item": {
+            "id": "quark:ancient_sapling",
+            "count": 16
+          }
+        },
+        "35CB1DEA5E2C9723_9": {
+          "type": "heracles:item",
+          "item": {
+            "id": "quark:blue_blossom_sapling",
+            "count": 16
+          }
+        },
+        "35CB1DEA5E2C9723_10": {
+          "type": "heracles:item",
+          "item": {
+            "id": "quark:lavender_blossom_sapling",
+            "count": 16
+          }
+        },
+        "35CB1DEA5E2C9723_11": {
+          "type": "heracles:item",
+          "item": {
+            "id": "quark:orange_blossom_sapling",
+            "count": 16
+          }
+        },
+        "35CB1DEA5E2C9723_12": {
+          "type": "heracles:item",
+          "item": {
+            "id": "quark:yellow_blossom_sapling",
+            "count": 16
+          }
+        },
+        "35CB1DEA5E2C9723_13": {
+          "type": "heracles:item",
+          "item": {
+            "id": "quark:red_blossom_sapling",
+            "count": 16
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "title": "Start with wood",
+    "description": [
+      "<task task=\"7D5600C8D61D3648\" quest=\"54A15B6B4B4569FC\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"35CB1DEA5E2C9723\" quest=\"54A15B6B4B4569FC\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:oak_planks"
+    },
+    "groups": {
+      "#0 The Ores": {
+        "position": [
+          -32,
+          80
+        ]
+      }
+    }
+  }
+}

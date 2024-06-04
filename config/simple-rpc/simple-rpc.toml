@@ -1,0 +1,300 @@
+[general]
+	#The Application ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
+	applicationID = 1232589546571698256
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen. ONLY AVAILABLE WHEN CLOTH CONFIG IS INSTALLED!
+	configScreen = true
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Internal Version Number. NO TOUCHY!
+	version = 18
+
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = "SKUFEU запускаетсяя..."
+	#The second line of text under the app name
+	state = "Скуфеу запускается..."
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["skufeu"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "SKUFEU [BETA]"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% скуфеу мода"
+	#The buttons to display on Discord 
+
+	[[init.buttons]]
+		label = "Сайт"
+		url = "https://skufeu.fdev.team"
+
+	[[init.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/MpW6UMq2eq"
+
+
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% соскуфился"
+	#The second line of text under the app name
+	state = "Скуфит в меню"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["skufeu"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "SKUFEU [BETA]"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% скуфеу мода"
+	#The buttons to display on Discord 
+
+	[[main_menu.buttons]]
+		label = "Сайт"
+		url = "https://skufeu.fdev.team"
+
+	[[main_menu.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/MpW6UMq2eq"
+
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% скуфирует глазами сервер"
+	#The second line of text under the app name
+	state = "Ищет альтушку"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["skufeu"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "SKUFEU [BETA]"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% скуфеу мода"
+	#The buttons to display on Discord 
+
+	[[server_list.buttons]]
+		label = "Сайт"
+		url = "https://skufeu.fdev.team"
+
+	[[server_list.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/MpW6UMq2eq"
+
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% ищет пиво"
+	#The second line of text under the app name
+	state = "В поиске пива"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["skufeu"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "SKUFEU [BETA]"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% скуфеу мода"
+	#The buttons to display on Discord 
+
+	[[realms_list.buttons]]
+		label = "Сайт"
+		url = "https://skufeu.fdev.team"
+
+	[[realms_list.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/MpW6UMq2eq"
+
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "%player% вход в скуфидонию"
+	#The second line of text under the app name
+	state = "Входит в скуфидонию"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["skufeu"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "SKUFEU [BETA]"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% скуфеу мода"
+	#The buttons to display on Discord 
+
+	[[join_game.buttons]]
+		label = "Сайт"
+		url = "https://skufeu.fdev.team"
+
+	[[join_game.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/MpW6UMq2eq"
+
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Скуфидонит в %world%"
+	#The second line of text under the app name
+	state = "Скуфидонит без альтушки"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["skufeu"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "SKUFEU [BETA]"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% скуфеу мода"
+	#The buttons to display on Discord 
+
+	[[single_player.buttons]]
+		label = "Сайт"
+		url = "https://skufeu.fdev.team"
+
+	[[single_player.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/MpW6UMq2eq"
+
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Скуфидонит на %servername% с %players% скуфами"
+	#The second line of text under the app name
+	state = "Скуфидонит онлайн"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["skufeu"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "SKUFEU [BETA]"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% скуфеу мода"
+	#The buttons to display on Discord 
+
+	[[multi_player.buttons]]
+		label = "Сайт"
+		url = "https://skufeu.fdev.team"
+
+	[[multi_player.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/MpW6UMq2eq"
+
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Скуфидонит на %realmname%"
+	#The second line of text under the app name
+	state = "Скуфидонит с пивом"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["skufeu"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "SKUFEU [BETA]"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%realmdescription%"
+	#The buttons to display on Discord 
+
+	[[realms.buttons]]
+		label = "Сайт"
+		url = "https://skufeu.fdev.team"
+
+	[[realms.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/MpW6UMq2eq"
+
+[generic]
+	#The first line of text under the app name
+	description = "Скуфидонит"
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = ["skufeu"]
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "SKUFEU [BETA]"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ["mclogo"]
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% скуфеу мода"
+	#The buttons to display on Discord 
+
+	[[generic.buttons]]
+		label = "Сайт"
+		url = "https://skufeu.fdev.team"
+
+	[[generic.buttons]]
+		label = "Discord"
+		url = "https://discord.gg/MpW6UMq2eq"
+
+[custom]
+	#Must these variables be parsed along with other variables
+	enabled = true
+	#Your custom variables to add
+	variables = []
+
+[dimension_overrides]
+	enabled = true
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "%player% в скуфидонии обычной"
+		state = ""
+		largeImageKey = ["skufeu"]
+		largeImageText = "Скуфидония обычная"
+		smallImageKey = ["mclogo"]
+		smallImageText = "%mods% скуфеу мода"
+
+		[[dimension_overrides.dimensions.buttons]]
+			label = "Сайт"
+			url = "https://skufeu.fdev.team"
+
+		[[dimension_overrides.dimensions.buttons]]
+			label = "Discord"
+			url = "https://discord.gg/MpW6UMq2eq"
+
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "%player% на госуслугах"
+		state = ""
+		largeImageKey = ["skufeu"]
+		largeImageText = "Госуслуги"
+		smallImageKey = ["mclogo"]
+		smallImageText = "%mods% скуфеу мода"
+
+		[[dimension_overrides.dimensions.buttons]]
+			label = "Сайт"
+			url = "https://skufeu.fdev.team"
+
+		[[dimension_overrides.dimensions.buttons]]
+			label = "Discord"
+			url = "https://discord.gg/MpW6UMq2eq"
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "%player% ловит альтушку"
+		state = ""
+		largeImageKey = ["skufeu"]
+		largeImageText = "Ловит альтушку"
+		smallImageKey = ["mclogo"]
+		smallImageText = "%mods% скуфеу мода"
+
+		[[dimension_overrides.dimensions.buttons]]
+			label = "Сайт"
+			url = "https://skufeu.fdev.team"
+
+		[[dimension_overrides.dimensions.buttons]]
+			label = "Discord"
+			url = "https://discord.gg/MpW6UMq2eq"
+
+

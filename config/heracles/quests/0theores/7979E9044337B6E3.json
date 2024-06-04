@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "70ABF5F5B2B823DD"
+  ],
+  "tasks": {
+    "4FD18994C3B67139": {
+      "type": "heracles:item",
+      "item": "minecraft:diamond_pickaxe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: minecraft:diamond_pickaxe",
+    "description": [
+      "<task task=\"4FD18994C3B67139\" quest=\"7979E9044337B6E3\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "groups": {
+      "#0 The Ores": {
+        "position": [
+          96,
+          -96
+        ]
+      }
+    }
+  }
+}

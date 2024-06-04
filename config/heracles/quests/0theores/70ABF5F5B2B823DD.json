@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "16C03EA05720F1BD"
+  ],
+  "tasks": {
+    "485527EBE4D31AD0": {
+      "type": "heracles:item",
+      "item": "minecraft:diamond"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: minecraft:diamond",
+    "description": [
+      "<task task=\"485527EBE4D31AD0\" quest=\"70ABF5F5B2B823DD\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:diamond"
+    },
+    "groups": {
+      "#0 The Ores": {
+        "position": [
+          64,
+          -64
+        ]
+      }
+    }
+  }
+}

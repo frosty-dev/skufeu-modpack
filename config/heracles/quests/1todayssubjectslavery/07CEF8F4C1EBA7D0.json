@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "176D60C7DB110760"
+  ],
+  "tasks": {
+    "2564B5AAA93BDC8B": {
+      "type": "heracles:item",
+      "item": "minecraft:enchanted_book",
+      "nbt": {
+        "StoredEnchantments": [
+          {
+            "lvl": 1,
+            "id": "travelanchors:teleportation"
+          }
+        ]
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "3CA8FA7D79217F5A": {
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "<task task=\"2564B5AAA93BDC8B\" quest=\"07CEF8F4C1EBA7D0\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"3CA8FA7D79217F5A\" quest=\"07CEF8F4C1EBA7D0\"/>"
+    ],
+    "groups": {
+      "#1 Todays Subject: Slavery": {
+        "position": [
+          64,
+          32
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:enchanted_book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Teleportation"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "settings": {},
+  "dependencies": [
+    "7979E9044337B6E3"
+  ],
+  "tasks": {
+    "0E988B1A9D310DE9": {
+      "type": "heracles:item",
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: minecraft:netherite_ingot",
+    "description": [
+      "<task task=\"0E988B1A9D310DE9\" quest=\"52D70EE220AE63F7\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:netherite_ingot"
+    },
+    "groups": {
+      "#0 The Ores": {
+        "position": [
+          128,
+          -128
+        ]
+      }
+    }
+  }
+}

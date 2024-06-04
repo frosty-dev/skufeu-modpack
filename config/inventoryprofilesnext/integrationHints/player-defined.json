@@ -1,0 +1,24 @@
+{
+    "net.minecraft.class_481": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "bottom": 10
+            },
+            "SETTINGS": {
+                "horizontalOffset": 12,
+                "top": -15
+            }
+        }
+    },
+    "net.minecraft.class_490": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "horizontalOffset": 91
+            },
+            "SETTINGS": {
+                "horizontalOffset": 76,
+                "top": -15
+            }
+        }
+    }
+}

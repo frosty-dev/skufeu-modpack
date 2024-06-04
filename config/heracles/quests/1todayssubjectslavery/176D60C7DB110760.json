@@ -1,0 +1,47 @@
+{
+  "settings": {},
+  "tasks": {
+    "0845AC7A6F42A647": {
+      "type": "heracles:item",
+      "item": "minecraft:enchanted_book",
+      "nbt": {
+        "StoredEnchantments": [
+          {
+            "id": "travelanchors:range",
+            "lvl": 3
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "2C8DC468FEAB5891": {
+      "type": "heracles:item",
+      "item": {
+        "id": "minecraft:emerald",
+        "count": 5
+      }
+    }
+  },
+  "display": {
+    "title": "Range III",
+    "description": [
+      "<task task=\"0845AC7A6F42A647\" quest=\"176D60C7DB110760\"/>",
+      "<hr/>",
+      "<hr/>",
+      "<reward reward=\"2C8DC468FEAB5891\" quest=\"176D60C7DB110760\"/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:enchanted_book"
+    },
+    "groups": {
+      "#1 Todays Subject: Slavery": {
+        "position": [
+          64,
+          0
+        ]
+      }
+    }
+  }
+}

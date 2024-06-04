@@ -1,0 +1,37 @@
+{
+  "settings": {},
+  "dependencies": [
+    "4310DA7BF38410F7"
+  ],
+  "tasks": {
+    "680A0BB5CEF0CEB6": {
+      "type": "heracles:item",
+      "item": "minecraft:golden_pickaxe"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: minecraft:golden_pickaxe",
+    "description": [
+      "<subtitle id=\"717214BEA01B58C5\" bold=\"true\" centered=\"true\" color=\"lightgray\"/>",
+      "<hr/>",
+      "<task task=\"680A0BB5CEF0CEB6\" quest=\"717214BEA01B58C5\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:golden_pickaxe"
+    },
+    "subtitle": {
+      "text": "Mines Diamonds and even has Fortune II"
+    },
+    "groups": {
+      "#0 The Ores": {
+        "position": [
+          48,
+          0
+        ]
+      }
+    }
+  }
+}

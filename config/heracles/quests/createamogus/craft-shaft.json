@@ -1,0 +1,84 @@
+{
+  "dependencies": [
+    "craft-andesite-alloy"
+  ],
+  "tasks": {
+    "get-shaft": {
+      "type": "heracles:item",
+      "item": "create:shaft",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "icon": {
+        "item": {
+          "id": "create:shaft",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "andesite-alloy": {
+      "icon": {
+        "item": {
+          "id": "create:andesite_alloy",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:andesite_alloy",
+        "count": 3
+      },
+      "type": "heracles:item"
+    },
+    "shaft": {
+      "icon": {
+        "item": {
+          "id": "create:shaft",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "create:shaft",
+        "count": 16
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Один или несколько последовательных валов использутся для передачи вращения вдоль своей оси."
+    ],
+    "groups": {
+      "Create: Amogus": {
+        "position": [
+          40,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:shaft",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Крафт вала"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

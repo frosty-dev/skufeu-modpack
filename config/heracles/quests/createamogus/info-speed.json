@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "craft-gears"
+  ],
+  "tasks": {
+    "get-speedometer": {
+      "type": "heracles:item",
+      "item": "create:speedometer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "icon": {
+        "item": {
+          "id": "create:speedometer",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "exp": {
+      "xptype": "LEVEL",
+      "amount": 5,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Скорость вращения влияет на скорость работы и потребление SU вращаемых механизмов.",
+      "",
+      "> Узнать точную скорость вращения можно в подсказке при наведении на вращаемый блок спидометра с надетыми инженерыми очками.",
+      "",
+      "> Максимальная скорость - 256."
+    ],
+    "groups": {
+      "Create: Amogus": {
+        "position": [
+          80,
+          -120
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "create:speedometer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Скорость вращения"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

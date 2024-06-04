@@ -1,0 +1,29 @@
+{
+  "settings": {},
+  "tasks": {
+    "50F09E5C383B63DC": {
+      "type": "heracles:item",
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "title": "Acquire: minecraft:copper_ingot",
+    "description": [
+      "<task task=\"50F09E5C383B63DC\" quest=\"09934AA4B541D17A\"/>",
+      "<hr/>"
+    ],
+    "icon": {
+      "type": "heracles:item",
+      "item": "minecraft:copper_ingot"
+    },
+    "groups": {
+      "#0 The Ores": {
+        "position": [
+          -64,
+          0
+        ]
+      }
+    }
+  }
+}

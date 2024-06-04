@@ -1,0 +1,41 @@
+{
+  "dependencies": [],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Клик по предмету в меню квестов откроет список крафтов этого предмета.",
+      "",
+      "Наведение курсора на предмет в списке справа инвентаря и нажатие /b/R/b/ аналогично откроет список его крафтов, наведение и нажатие /b/U/b/ откроет список крафтов с использованием этого предмета."
+    ],
+    "groups": {
+      "Create: Amogus": {
+        "position": [
+          0,
+          45
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:map",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/circles.png",
+    "title": {
+      "translate": "Подсказки и хоткеи"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
